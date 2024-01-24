@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppFooter from './components/AppFooter.vue';
+import axios from 'axios';
 
 export default {
     data() {
@@ -16,7 +17,10 @@ export default {
     },  
     methods: {
 
-    }
+    },
+    mounted(){
+
+    },
 }
 </script>
 
